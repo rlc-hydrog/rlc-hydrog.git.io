@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RLC-HydroG</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Calibri, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Light grey background color */
+        }
+        header {
+            background-color: #fff; /* White background color */
+            color: rgb(0, 0, 255); /* Blue text color */
+            text-align: center;
+            padding: 20px 0;
+        }
+        header img {
+            width: 70%; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Align the logo inline with other header content */
+            margin: 0 auto; /* Center the logo */
+        }
+        section {
+            background-color: #f8f9fa; /* Light background color for sections */
+            padding: 50px 0;
+            text-align: center;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: Calibri, sans-serif; /* Set Calibri font for all headings */
+            font-weight: bold; /* Set headings to bold */
+            color: rgb(0, 0, 255); /* Set RGB blue color for headings */
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .wells-item {
+            margin-bottom: 40px;
+        }
+        .wells-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .quarries-item {
+            margin-bottom: 40px;
+        }
+        .quarries-item img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="rlc-hydroglogo.png" alt="RLC-HydroG Logo">
+        <h1>Hydrogeological Services</h1>
+    </header>
+
+    <section id="experience">
+        <div class="container">
+            <h2>30+ years of experience</h2>
+            <div class="experience-item">
+                <p>Hundreds of successful projects completed in Ontario by Russell Laird Chown P.Geo (Professional Geoscientist of Ontario)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="wells">
+        <div class="container">
+            <h2>Lot Severance Hydrog Studies</h2>
+            <div class="wells-item">
+                <img src="wellcasing2.png" alt="Ontario water supply well">
+                <p>Pumping tests, groundwater sampling, septic system suitability, development considerations including well design and water treatment options (call 613-220-6075 or email info@rlc-hydrog.ca to get a free detailed cost estimate - Severance hydrog studies starting at $5,000)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="quarries">
+        <div class="container">
+            <h2>Pits & Quarries</h2>
+            <div class="quarries-item">
+                <img src="quarryface.png" alt="Quarry Face">
+                <p>Aggregate resource assessments, karst studies, maximum water table reports, groundwater monitoring, permits to take water (PTTW).</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="terrain_analysis">
+        <div class="container">
+            <h2>Terrain Analysis</h2>
+            <div class="quarries-item">
+                <img src="brent2.png" alt="Quarry Face">
+                <p>Septic system suitability, nitrate impacts assessments, LIDAR DTM analysis.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Other services</h2>
+            <div class="services-item">
+                <p>Rural subdivision hydrog, surface water sampling, pre-consultation / liason with stakeholders/regulators, dewatering, well inspection, etc.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: info@rlc-hydrog.ca</p>
+            <p>Phone: 613-220-6075</p>
+            <!-- Add a contact form here if desired -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 RLC-HydroG. All rights reserved.</p>
+    </footer>
+</body>
+</html>

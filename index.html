@@ -5,62 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RLC-HydroG</title>
     <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Calibri, sans-serif;
+        /* Reset styles */
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            background-color: rgb(128,128,128); /* grey background color */
         }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        /* Header styles */
         header {
-            background-color: #fff; /* White background color */
-            color: black; /* Black text color */
-            text-align: center;
+            background-color: #fff;
             padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
+
         header img {
-            width: 70%; /* Adjust the width as needed */
-            height: auto; /* Maintain aspect ratio */
-            display: block; /* Align the logo inline with other header content */
-            margin: 0 auto; /* Center the logo */
+            max-width: 100%;
+            height: auto;
         }
-        section {
-            background-color: rgb(128,128,128); /* med grey background color for sections */
-            padding: 50px 0;
-            text-align: center;
+
+        header h1 {
+            font-size: 24px;
+            margin-top: 10px;
         }
-        h1, h2, h3, h4, h5, h6 {
-            font-family: Calibri, sans-serif; /* Set Calibri font for all headings */
-            font-weight: bold; /* Set headings to bold */
-            color: black; /* Set black color for headings */
-        }
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        footer {
-            font-size: 16px; /* Adjusted font size for footer */
-            text-align: center;
-            background-color: #fff; /* White background color for footer */
-            padding: 10px 0;
-        }
+
+        /* Main content styles */
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
-        .wells-item,
-        .quarries-item,
-        .services-item,
-        .sevhydrog-item {
-            margin-bottom: 40px;
+
+        section {
+            padding: 40px 0;
         }
-        .wells-item img,
-        .quarries-item img,
-        .sevhydrog-item img {
-            max-width: 100%;
-            height: auto;
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 20px;
+            }
+
+            section {
+                padding: 20px 0;
+            }
         }
     </style>
 </head>
@@ -73,48 +92,35 @@
     <section id="experience">
         <div class="container">
             <h2>30+ years of experience</h2>
-            <div class="experience-item">
-                <p>Hundreds of successful projects completed in Canada (Licensed Professional Geoscientist of Ontario), including residential, commercial, industrial, municipal, and provincial government projects</p>
-            </div>
+            <p>Hundreds of successful projects completed in Ontario (Licensed Professional Geoscientist), including residential, commercial, industrial, municipal, and provincial government projects</p>
         </div>
     </section>
 
     <section id="sevhydrog">
         <div class="container">
             <h2>Lot Severance Hydrog Studies</h2>
-            <div class="sevhydrog-item">
-                <img class="sevhydrog-image" src="wellcasing2.png" alt="Ontario water supply well">
-                <p>Pumping tests, groundwater sampling, septic system suitability, nitrate impact assessment, water quality, development considerations, well design, water treatment options. Call <a href="tel:6132206075">613-220-6075</a> or email <a href="mailto:info@rlc-hydrog.ca">info@rlc-hydrog.ca</a> to get a free detailed cost estimate (Land severance hydrog studies from $5,000)</p>
-            </div>
+            <p>Pumping tests, groundwater sampling, septic system suitability, nitrate impact assessment, water quality, development considerations, well design, water treatment options. Call <a href="tel:6132206075">613-220-6075</a> or email <a href="mailto:info@rlc-hydrog.ca">info@rlc-hydrog.ca</a> to get a free detailed cost estimate (Land severance hydrog studies from $5,000)</p>
         </div>
     </section>
 
     <section id="quarries">
         <div class="container">
             <h2>Pits & Quarries</h2>
-            <div class="quarries-item">
-                <img src="quarryface.png" alt="Quarry Face">
-                <p>Aggregate resource assessments, karst studies, maximum water table reports, groundwater monitoring, permits to take water (PTTW).</p>
-            </div>
+            <p>Aggregate resource assessments, karst studies, maximum water table reports, groundwater monitoring, permits to take water (PTTW).</p>
         </div>
     </section>
 
     <section id="terrain_analysis">
         <div class="container">
             <h2>General Hydrogeological Services</h2>
-            <div class="quarries-item">
-                <img src="brent2.png" alt="Quarry Face">
-                <p>Terrain analysis, septic system suitability, test pitting, nitrate impacts assessment, LIDAR analysis, rural subdivision hydrog, groundwater & surface water sampling, municipal pre-consultation, liason with stakeholders and regulators, dewatering, well inspection, peer review, etc.</p>
-            </div>
+            <p>Terrain analysis, septic system suitability, test pitting, nitrate impacts assessment, LIDAR analysis, rural subdivision hydrog, groundwater & surface water sampling, municipal pre-consultation, liaison with stakeholders and regulators, dewatering, well inspection, peer review, etc.</p>
         </div>
     </section>
 
     <section id="services">
         <div class="container">
             <h2>RLC-HydroG will do everything possible to REDUCE YOUR COST for a hydrog assessment</h2>
-            <div class="services-item">
-                <p>A detailed cost estimate will be provided. Work will be done on a time & materials basis with an upset limit which will not to be exceeded without your written approval. Our labour rates are very competitive ($180/hr for senior hydrogeologist - $90/hr for field work)</p>
-            </div>
+            <p>A detailed cost estimate will be provided. Work will be done on a time & materials basis with an upset limit which will not to be exceeded without your written approval. Our labor rates are very competitive ($180/hr for senior hydrogeologist - $90/hr for field work)</p>
         </div>
     </section>
 
